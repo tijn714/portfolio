@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tijn Rodrigo - JS not found.</title>
+
+    <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+
+    .container {
+        background: black;
+        color: white;
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .content{
+        max-width: 1250px;
+        margin: auto;
+        padding: 0 30px;
+        text-align: center;
+    }
+
+    .container .content {
+        color: #fff;
+        text-align: center;
+        padding-top: 200px;
+    }
+
+    .container .content h1{
+      font-size: 60px;
+      font-weight: 700;
+    }
+
+    .container .content p{
+      font-size: 20px;
+      font-weight: 500;
+      padding: 10px 0;
+    }
+
+    .crimson {
+      color: crimson;
+    }
+
+    .container .btn {
+      display: inline-block;
+      padding: 10px 30px;
+      background: transparent;
+      color: #fff;
+      transition: all 0.5s ease;
+      margin-top: 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+      text-decoration: none;
+      border: 2px solid crimson;
+      cursor: pointer;
+    }
+
+    .container .btn:hover{
+      background: crimson;
+      color: #fff;
+      transform: translateY(-10px);
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1><span class="crimson">JavaScript</span></h1>
+            <p>Zet JavaScript aan om deze pagina te kunnen bezoeken.</p>
+            <a href="./" class="btn">Ga terug</a>
+        </div>
+    </div>
+
+    <script>
+      // redirect to homepage
+      setTimeout(() => {
+        window.location.href = "./";
+      }, 0);
+    </script>
+</body>
+</html>
