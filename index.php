@@ -55,6 +55,8 @@ if (!$conn) {
       <div class="btns">
         <a href="#about" class="btn">Over Mij</a>
       </div>
+
+      <div class="particles" id="particles-js"></div>
     </div>
   </div>
 
@@ -189,6 +191,7 @@ if (!$conn) {
     <p>Copyright &copy; <span id='year'></span> Tijn Rodrigo</p>
   </footer>
 
+  <script src="assets/js/particles.js"></script>
   <script src="assets/js/script.js"></script>
   <script src="assets/js/nav.js"></script>
 
